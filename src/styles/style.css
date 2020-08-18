@@ -1,0 +1,60 @@
+body {
+  font-family: 'Libre Franklin', sans-serif;
+  background-color: #f0f1f3;
+}
+
+.content {
+  height: 98vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content img {
+  width: 645px;
+  height: 405px;
+}
+
+.content .social {
+  /*
+    #facebook, #twitter, #instagram{
+      width: 32px;
+      height: 32px;  
+
+      fill: hsl(223, 87%, 63%);
+    }
+    */
+}
+
+.content .social .facebook, .content .social .twitter, .content .social .instagram {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.content .social .facebook #facebook-logo,
+.content .social .facebook #instagram-logo,
+.content .social .facebook #twitter-logo, .content .social .twitter #facebook-logo,
+.content .social .twitter #instagram-logo,
+.content .social .twitter #twitter-logo, .content .social .instagram #facebook-logo,
+.content .social .instagram #instagram-logo,
+.content .social .instagram #twitter-logo {
+  width: 18px;
+  height: 18px;
+  fill: #4f7df3;
+}
+/*# sourceMappingURL=style.css.map */

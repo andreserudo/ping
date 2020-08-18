@@ -1,0 +1,55 @@
+
+// DESKTOP FIRST
+
+body{
+  font-family: 'Libre Franklin', sans-serif;  
+  
+  background-color: #f0f1f3;
+}
+
+.content{
+  height: 98vh;
+
+  display: flex;
+
+  flex-direction: column;
+
+  img{
+    width: 645px;
+    height: 405px;
+  }
+
+  .social{
+    /*
+    #facebook, #twitter, #instagram{
+      width: 32px;
+      height: 32px;  
+
+      fill: hsl(223, 87%, 63%);
+    }
+    */
+    .facebook, .twitter, .instagram{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      width: 32px;
+      height: 32px;  
+
+      border-radius: 50%;
+      
+      background-color: black;
+
+      #facebook-logo,
+      #instagram-logo,
+      #twitter-logo{
+        width: 18px;
+        height: 18px;  
+
+        fill: hsl(223, 87%, 63%);
+      }
+
+    }
+  }
+
+}
