@@ -5,13 +5,15 @@ body{
   font-family: 'Libre Franklin', sans-serif;  
   
   background-color: #f0f1f3;
+  font-size: 20px;
 }
 
 .content{
-  height: 98vh;
+  height: 95vh;
 
   display: flex;
-
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
 
   img{
@@ -19,15 +21,25 @@ body{
     height: 405px;
   }
 
-  .social{
-    /*
-    #facebook, #twitter, #instagram{
-      width: 32px;
-      height: 32px;  
-
-      fill: hsl(223, 87%, 63%);
+  .title{    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    p{
+      margin-bottom: .5em;
+      
+      font-size: 2em;
+      color: hsl(0, 0%, 59%);
+      b{
+        color: black;
+      }
     }
-    */
+  }
+
+  .social{
+    display: flex;
+
     .facebook, .twitter, .instagram{
       display: flex;
       align-items: center;

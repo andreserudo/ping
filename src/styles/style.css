@@ -1,13 +1,20 @@
 body {
   font-family: 'Libre Franklin', sans-serif;
   background-color: #f0f1f3;
+  font-size: 20px;
 }
 
 .content {
-  height: 98vh;
+  height: 95vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -19,15 +26,36 @@ body {
   height: 405px;
 }
 
-.content .social {
-  /*
-    #facebook, #twitter, #instagram{
-      width: 32px;
-      height: 32px;  
+.content .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
 
-      fill: hsl(223, 87%, 63%);
-    }
-    */
+.content .title p {
+  margin-bottom: .5em;
+  font-size: 2em;
+  color: #969696;
+}
+
+.content .title p b {
+  color: black;
+}
+
+.content .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .content .social .facebook, .content .social .twitter, .content .social .instagram {
