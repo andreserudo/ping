@@ -59,6 +59,7 @@ body {
 .content .notify {
   margin-top: 2rem;
   margin-bottom: 4rem;
+  height: 3.5rem;
 }
 
 .content .notify input {
@@ -95,6 +96,29 @@ body {
   outline: none;
   -webkit-box-shadow: -1px -1px 5px 6px rgba(231, 236, 255, 0.47);
           box-shadow: -1px -1px 5px 6px rgba(231, 236, 255, 0.47);
+}
+
+.content .notify button {
+  height: 3rem;
+  width: 165px;
+  cursor: pointer;
+  border-radius: 35px;
+  border-style: solid;
+  border-color: #4f7df3;
+  background-color: #4f7df3;
+  font-size: 14px;
+  color: white;
+  font-weight: 700;
+}
+
+.content .notify button:focus {
+  outline: none;
+}
+
+.content .notify button:active {
+  border-bottom-width: 4px;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
 }
 
 .content .social {
