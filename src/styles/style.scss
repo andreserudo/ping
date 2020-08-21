@@ -4,7 +4,7 @@
 body{
   font-family: 'Libre Franklin', sans-serif;  
   
-  background-color: #f0f1f3;
+  background-color: #ffffff;
   font-size: 20px;
 }
 
@@ -35,6 +35,36 @@ body{
         color: black;
       }
     }
+
+    span{
+      font-size: 16px;
+    }
+  }
+
+  .notify{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+
+    input{
+      height: 2.5rem;
+      width: 350px;
+      border-radius: 35px;
+      border-color: #e7ecff;
+      border-style: solid;
+      text-indent: 20px;
+      font-size: 14px;
+    }
+
+    ::placeholder{
+      color:  #dee1ef;
+      font-weight: 300;
+    }
+
+    input:focus{
+      outline: none;
+      box-shadow: -1px -1px 5px 6px rgba(231,236,255,0.47);
+    }
+    
   }
 
   .social{

@@ -1,6 +1,6 @@
 body {
   font-family: 'Libre Franklin', sans-serif;
-  background-color: #f0f1f3;
+  background-color: #ffffff;
   font-size: 20px;
 }
 
@@ -50,6 +50,51 @@ body {
 
 .content .title p b {
   color: black;
+}
+
+.content .title span {
+  font-size: 16px;
+}
+
+.content .notify {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.content .notify input {
+  height: 2.5rem;
+  width: 350px;
+  border-radius: 35px;
+  border-color: #e7ecff;
+  border-style: solid;
+  text-indent: 20px;
+  font-size: 14px;
+}
+
+.content .notify ::-webkit-input-placeholder {
+  color: #dee1ef;
+  font-weight: 300;
+}
+
+.content .notify :-ms-input-placeholder {
+  color: #dee1ef;
+  font-weight: 300;
+}
+
+.content .notify ::-ms-input-placeholder {
+  color: #dee1ef;
+  font-weight: 300;
+}
+
+.content .notify ::placeholder {
+  color: #dee1ef;
+  font-weight: 300;
+}
+
+.content .notify input:focus {
+  outline: none;
+  -webkit-box-shadow: -1px -1px 5px 6px rgba(231, 236, 255, 0.47);
+          box-shadow: -1px -1px 5px 6px rgba(231, 236, 255, 0.47);
 }
 
 .content .social {
