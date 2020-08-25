@@ -57,6 +57,13 @@ body {
 }
 
 .content .notify {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin-top: 2rem;
   margin-bottom: 4rem;
   height: 3.5rem;
@@ -119,6 +126,14 @@ body {
   border-bottom-width: 4px;
   -webkit-transform: translateY(4px);
           transform: translateY(4px);
+}
+
+.content #rejectedEmail {
+  font-size: .6em;
+  color: #f9b0c2;
+  margin-top: 0.5em;
+  margin-left: 2em;
+  display: none;
 }
 
 .content .social {
