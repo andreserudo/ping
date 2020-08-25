@@ -94,6 +94,9 @@ body{
 
   .social{
     display: flex;
+    margin-top: 4em;
+    margin-bottom: 1em;
+
 
     .facebook, .twitter, .instagram{
       display: flex;
@@ -102,10 +105,11 @@ body{
       
       width: 32px;
       height: 32px;  
-
-      border-radius: 50%;
       
-      background-color: black;
+//      border: 1px solid hsl(0, 0%, 59%);
+      box-shadow: 11px 10px 48px 2px rgba(150,150,150,0.61);
+      border-radius: 50%;          
+      cursor: pointer;
 
       #facebook-logo,
       #instagram-logo,
@@ -117,6 +121,27 @@ body{
       }
 
     }
+
+    .facebook:hover,
+    .instagram:hover,
+    .twitter:hover{
+      border: 1px solid rgba(150,150,150,0.73);
+    }
+
+
+    .facebook{
+      margin-right: .5em;
+    }
+
+    div + div{
+      margin-right: .5em;
+    }
+  }
+
+  .copyright{
+    font-weight: 300;
+    font-size: .7em;
+    color:  hsl(0, 0%, 59%);
   }
 
 }
