@@ -23,7 +23,19 @@ body {
 
 .content img {
   width: 645px;
-  height: 405px;
+}
+
+@media only screen and (max-width: 690px) {
+  .content img {
+    width: 400px;
+    margin-top: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .content img {
+    width: 300px;
+  }
 }
 
 .content .title {
@@ -52,8 +64,21 @@ body {
   color: black;
 }
 
+@media only screen and (max-width: 690px) {
+  .content .title p {
+    font-size: 1.2em;
+    margin-top: 2.5em;
+  }
+}
+
 .content .title span {
   font-size: 16px;
+}
+
+@media only screen and (max-width: 690px) {
+  .content .title span {
+    margin-top: .5rem;
+  }
 }
 
 .content .notify {
@@ -69,6 +94,28 @@ body {
   height: 3.5rem;
 }
 
+@media only screen and (max-width: 690px) {
+  .content .notify {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .content .notify {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+}
+
 .content .notify input {
   height: 2.5rem;
   width: 350px;
@@ -77,6 +124,12 @@ body {
   border-style: solid;
   text-indent: 20px;
   font-size: 14px;
+}
+
+@media only screen and (max-width: 430px) {
+  .content .notify input {
+    width: 250px;
+  }
 }
 
 .content .notify ::-webkit-input-placeholder {
@@ -109,6 +162,7 @@ body {
   height: 3rem;
   width: 165px;
   cursor: pointer;
+  margin-left: .5rem;
   border-radius: 35px;
   border-style: solid;
   border-color: #4f7df3;
@@ -116,6 +170,23 @@ body {
   font-size: 14px;
   color: white;
   font-weight: 700;
+}
+
+@media only screen and (max-width: 690px) {
+  .content .notify button {
+    width: 360px;
+    margin-left: 0;
+    margin-top: 2rem;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .content .notify button {
+    width: 258px;
+    margin-top: .5rem;
+  }
 }
 
 .content .notify button:focus {
@@ -142,6 +213,12 @@ body {
   display: flex;
   margin-top: 4em;
   margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 690px) {
+  .content .social {
+    margin-top: 7em;
+  }
 }
 
 .content .social .facebook, .content .social .twitter, .content .social .instagram {
